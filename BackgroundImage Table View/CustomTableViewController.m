@@ -9,9 +9,6 @@
 #import "CustomTableViewController.h"
 
 @implementation CustomTableViewController
-{
-    NSArray *tableData;
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
