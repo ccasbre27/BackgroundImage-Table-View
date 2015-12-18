@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		783E07081C2462EC0043D397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 783E07071C2462EC0043D397 /* main.m */; };
 		783E070B1C2462EC0043D397 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 783E070A1C2462EC0043D397 /* AppDelegate.m */; };
-		783E070E1C2462EC0043D397 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783E070D1C2462EC0043D397 /* ViewController.m */; };
 		783E07111C2462EC0043D397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783E070F1C2462EC0043D397 /* Main.storyboard */; };
 		783E07131C2462EC0043D397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783E07121C2462EC0043D397 /* Assets.xcassets */; };
 		783E07161C2462EC0043D397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783E07141C2462EC0043D397 /* LaunchScreen.storyboard */; };
+		783E07201C2463C00043D397 /* ojodios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 783E071F1C2463C00043D397 /* ojodios.jpg */; };
+		783E07231C2464140043D397 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783E07221C2464140043D397 /* CustomTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,13 @@
 		783E07071C2462EC0043D397 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		783E07091C2462EC0043D397 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		783E070A1C2462EC0043D397 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		783E070C1C2462EC0043D397 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		783E070D1C2462EC0043D397 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		783E07101C2462EC0043D397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		783E07121C2462EC0043D397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		783E07151C2462EC0043D397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		783E07171C2462EC0043D397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783E071F1C2463C00043D397 /* ojodios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ojodios.jpg; sourceTree = "<group>"; };
+		783E07211C2464140043D397 /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		783E07221C2464140043D397 /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +60,16 @@
 		783E07051C2462EC0043D397 /* BackgroundImage Table View */ = {
 			isa = PBXGroup;
 			children = (
+				783E071F1C2463C00043D397 /* ojodios.jpg */,
 				783E07091C2462EC0043D397 /* AppDelegate.h */,
 				783E070A1C2462EC0043D397 /* AppDelegate.m */,
-				783E070C1C2462EC0043D397 /* ViewController.h */,
-				783E070D1C2462EC0043D397 /* ViewController.m */,
 				783E070F1C2462EC0043D397 /* Main.storyboard */,
 				783E07121C2462EC0043D397 /* Assets.xcassets */,
 				783E07141C2462EC0043D397 /* LaunchScreen.storyboard */,
 				783E07171C2462EC0043D397 /* Info.plist */,
 				783E07061C2462EC0043D397 /* Supporting Files */,
+				783E07211C2464140043D397 /* CustomTableViewController.h */,
+				783E07221C2464140043D397 /* CustomTableViewController.m */,
 			);
 			path = "BackgroundImage Table View";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				783E07161C2462EC0043D397 /* LaunchScreen.storyboard in Resources */,
+				783E07201C2463C00043D397 /* ojodios.jpg in Resources */,
 				783E07131C2462EC0043D397 /* Assets.xcassets in Resources */,
 				783E07111C2462EC0043D397 /* Main.storyboard in Resources */,
 			);
@@ -149,8 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				783E070E1C2462EC0043D397 /* ViewController.m in Sources */,
 				783E070B1C2462EC0043D397 /* AppDelegate.m in Sources */,
+				783E07231C2464140043D397 /* CustomTableViewController.m in Sources */,
 				783E07081C2462EC0043D397 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

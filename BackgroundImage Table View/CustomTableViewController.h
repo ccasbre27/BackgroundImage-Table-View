@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomTableViewController.h
 //  BackgroundImage Table View
 //
 //  Created by user on 12/18/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CustomTableViewController : UITableViewController
 
 @end
-
